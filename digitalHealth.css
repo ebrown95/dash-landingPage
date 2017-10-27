@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto';
+    font-weight: lighter;
+} 
+
+
+.header {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.headerImg{
+    width: 100%;
+    height: 300px;
+}
+
+
+.headerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding-left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.headerText h1{
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.headerText p{
+    margin-top: 1em;
+    font-size: 1em;
+    width: 60%;
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 8%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.copy{
+    margin-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+}
+
+.copy p{
+    text-align: left;
+    font-size: 1.2em;
+    color: #808488; 
+}
+
+.wrapper{
+    width: 100%;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.meme{
+    float: left;
+    width: 15%;
+    padding-left: 18%;
+}
+
+.meme img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.whitepaper{
+    float: left;
+    width: 16%;
+    padding-left: 5%;
+}
+
+.whitepaper img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.form{
+    float: left;
+    padding-left: 8%;
+    padding-right: 3%;
+    padding-top: 4%;
+    width: 20%;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    font-size: .90em;
+    padding-left: 5%;
+    
+}
+
+button {
+    margin-top: 10px;
+    position: relative;
+    left: 25%;
+    align-content: center;
+    background-color: #2A89C9; /* White */
+    border: none;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: #2578AE;
+    
+}
+
